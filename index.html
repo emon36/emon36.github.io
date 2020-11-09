@@ -314,172 +314,117 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
-      <div class="section-title">
-        <h2>Projects</h2>
-    
-      </div>
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
-          <div class="row">
-  
-              <div class="col-lg-12">
-  
-  
-                  <ul class="filters text-center" data-aos="fade-up" data-aos-delay="100">
-                      <li class="active" data-filter="*"><a href="#!">All</a></li>
-                      <li data-filter=".web-application"><a href="#!">Web application</a></li>
-                      <li data-filter=".frontend"><a href="#!">Frontend</a></li>
-                      <li data-filter=".wordpress"><a href="#!">Wordpress</a></li>
-                  </ul>
-  
-                  <div class="projects" data-aos="fade-up" data-aos-delay="200">
-  
-                      <div class="row" >
-  
-                          <div class="col-lg-4 item web-application">
-                              
-                              <div class="card">
-  
-                                  <div class="card-head">
-                                      <img src="assets/img/portfolio/webapp1.png" alt="" class="img-fluid card-img">
-                                      
-                                      <div class="card-hover">
-                                         
-                                          <p>This agriculture ecommerce application built on laravel</p>
-                                      </div>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title">An agriculture Ecommerce application</h4>
-                                      <a href="https://github.com/emon36/Krishiseba-an-agriculture-ecommerce-application-in-laravel" target="_blank" class="btn btn-lg card-btn">See Details</a>
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-  
-                          <div class="col-lg-4 item frontend">
-                              
-                              <div class="card">
-  
-                                  <div class="card-head">
-                                      <img src="assets/img/portfolio/portfolio.PNG" alt="" class="img-fluid card-img">
-                                      
-                                      <div class="card-hover">
-                                          
-                                          <p>This is my portfolio website. It is made by Bootstrap,css, JavaScript</p>
-                                      </div>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title">My Prortfolio Website</h4>
-                                      <a href="#!" class="btn btn-lg card-btn">See Details</a>
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-                          
-                          <div class="col-lg-4 item wordpress">
-                              
-                              <div class="card">
-  
-                                  <div class="card-head">
-                                      <img src="assets/img/portfolio/wp1.png" alt="" class="img-fluid card-img">
-                                      
-                                      <div class="card-hover">
-                                          
-                                          <p>This is a fitness Landing page demo built on Elementor pro builder</p>
-                                      </div>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title">A modern Landing page</h4>
-                                      <a href="https://www.behance.net/gallery/107478189/Fitness-landing-page" target="_blank" class="btn btn-lg card-btn">See Details</a>
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-                          
-                          <div class="col-lg-4 item web-application">
-                              
-                              <div class="card">
-  
-                                  <div class="card-head">
-                                      <img src="assets/img/portfolio/image.jpg" alt="" class="img-fluid card-img">
-                                      
-                                      <div class="card-hover">
-                                          
-                                          <p></p>
-                                      </div>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title"></h4>
-                                      <a href="#!" class="btn btn-lg card-btn">See Details</a>
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-                     
-                          <div class="col-lg-4 item frontend">
-                              
-                              <div class="card">
-  
-                                  <div class="card-head">
-                                      <img src="assets/img/portfolio/image.jpg" alt="" class="img-fluid card-img">
-                                      
-                                      <div class="card-hover">
-                                          
-                                          <p></p>
-                                      </div>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title"></h4>
-                                      <a href="#!" class="btn btn-lg card-btn">See Details</a>
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-  
-                          <div class="col-lg-4 item web-application">
-                              
-                              <div class="card">
-  
-                                  <div class="card-head">
-                                      <img src="assets/img/portfolio/image.jpg" alt="" class="img-fluid card-img">
-                                      
-                                      <div class="card-hover">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Here are some of my recent projects</p>
+        </div>
+        
 
-                                        <p> </p>
-                                         
-                                      </div>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title">L</h4>
-                                      <a href="#!" class="btn btn-lg card-btn">See Details</a>
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-  
-                      </div>
-  
-                  </div>
-  
-              </div>
-  
+        <ul id="portfolio-flters" class="justify-content-center" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-Webapp">Web application</li>
+          <li data-filter=".filter-front">Frontend</li>
+          <li data-filter=".filter-wordpress">Wordpress</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Webapp">
+            <div class="portfolio-img"><img src="assets/img/portfolio/webapp1.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> An agriculture Ecommerce application </h4>
+              <p> This application built for bangladeshi farmers so they can buy agricultural product online.It is built on laravel framework </p>
+              <a href="assets/img/portfolio/webapp1.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="https://github.com/emon36/Krishiseba-an-agriculture-ecommerce-application-in-laravel" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
           </div>
-  
-      </div>
 
-    </section><!-- End Portfolio Section -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-front">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio.PNG" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>My Protfolio Website</h4>
+              <p>This portfolio website made by HTML5,bootstrap,css and jquery </p>
+              <a href="assets/img/portfolio/portfolio.PNG" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="https://github.com/emon36/portfolio-website" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
+            <div class="portfolio-img"><img src="assets/img/portfolio/wp1.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>A modern landing page </h4>
+              <p>This fitness landing page built on wordpress and Elementor pro builder</p>
+              <a href="assets/img/portfolio/wp1.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="https://www.behance.net/gallery/107478189/Fitness-landing-page" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-front">
+            <div class="portfolio-img"><img src="" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
       <div class="container" data-aos="fade-up">
@@ -510,7 +455,7 @@
                 <p> <a href="whatsapp://send?text=Hello!&phone=+8801977451259">+8801977451259s </a></p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14613.132261505061!2d90.43421741642894!3d23.70158355381285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9da4a476275%3A0x976b322054ef01a1!2sDoniya%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1604852968209!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14613.132261505061!2d90.43421741642894!3d23.70158355381285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9da4a476275%3A0x976b322054ef01a1!2sDoniya%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1604852968209!5m2!1sen!2sbd"  frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -566,7 +511,8 @@
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/isotope-layout/isotope.min.js"></script>
+ <script src="assets/isotope-layout/isotope.pkgd.js"></script>
+ <script src="assets/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/venobox/venobox.min.js"></script>
   <script src="assets/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/aos/aos.js"></script>
